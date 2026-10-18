@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Афиша выходных · Санкт-Петербург</title>
+  <meta name="description" content="Учебный прототип: выбор события в Петербурге и оформление билета">
+  <meta name="theme-color" content="#1f2a44">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23ff5a36'/%3E%3Cpath d='M8 11h16v3a2 2 0 0 0 0 4v3H8v-3a2 2 0 0 0 0-4z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js"></script>
+  <script src="analytics.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="#/" data-nav="logo">
+      <span class="logo-mark" aria-hidden="true"></span>
+      <span>Афиша выходных</span>
+    </a>
+    <span class="city">Санкт-Петербург</span>
+  </header>
+
+  <main id="app" class="container" tabindex="-1"></main>
+
+  <footer class="footer container">
+    Учебный прототип для лабораторной работы. Оплата не проводится, билеты не настоящие.
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
